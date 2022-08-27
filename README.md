@@ -1,2 +1,2 @@
 # Nutrifeed
-Landing page for an agrofam company
+Landing page for an agrofarm company
