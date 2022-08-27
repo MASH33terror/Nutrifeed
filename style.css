@@ -80,4 +80,129 @@ header .login a {
 header .woman {
   display: flex;
   justify-content: center;
+}
+
+article {
+  padding: 3% 5%;
+}
+article h1 {
+  font-size: 40px;
+  text-align: center;
+  color: #01321c;
+  font-weight: 600;
+}
+article .p {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 300;
+}
+article .grid1 {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 90px;
+}
+article .grid1 .grid1-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+article .grid1 .grid1-item .circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #01321c;
+  width: 100px;
+  padding: 20px 25px;
+}
+article .grid1 .grid1-item h3 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px 0px;
+}
+article .grid1 .grid1-item p {
+  width: 300px;
+  font-size: 16px;
+  font-weight: 300;
+}
+article .item2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+article .item2 .r {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+article .item2 .r h1 {
+  text-align: left;
+  width: 500px;
+  font-size: 40px;
+}
+article .item2 .r p {
+  width: 540px;
+  line-height: 33px;
+  text-align: left;
+}
+article .item2 .r .rbut {
+  width: 220px;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 16px;
+  border: none;
+  background-color: #01321c;
+  font-size: 20px;
+  font-weight: 600;
+}
+article .item3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+article .item3 .left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+article .item3 .left button {
+  width: 220px;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 16px;
+  border: none;
+  background-color: #01321c;
+  font-size: 20px;
+  font-weight: 600;
+}
+article .item3 .right {
+  background-color: #ffc57f;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  right: 60px;
+  bottom: 89px;
+  z-index: 1;
+}
+article .item3 h1 {
+  text-align: left;
+  width: 500px;
+  font-size: 40px;
+}
+article .item3 p {
+  width: 540px;
+  line-height: 33px;
+  text-align: left;
+}
+
+.image {
+  background-image: url(./images/scott-webb-hDyO6rr3kqk-unsplash\ 1.png);
+  background-repeat: none;
+  background-size: cover;
 }/*# sourceMappingURL=style.css.map */
