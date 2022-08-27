@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -8,4 +10,89 @@
 
 body {
   background-color: #ffffff;
+  font-family: "Sora", sans-serif;
 }
+
+header {
+  background-color: #01321c;
+  padding: 3% 5%;
+  text-align: center;
+  height: 1470px;
+  overflow-y: hidden;
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 47px;
+
+      li a {
+        font-size: 19px;
+        color: #ffffff;
+      }
+    }
+
+    .nav-but {
+      display: flex;
+      align-items: center;
+      gap: 19px;
+
+      a {
+        font-size: 19px;
+        color: #ffffff;
+      }
+
+      button {
+        padding: 10px 20px;
+        border-radius: 16px;
+        background-color: #ffc57f;
+
+        a {
+          color: #01321c;
+          font-size: 19px;
+        }
+      }
+    }
+  }
+
+  h1 {
+    text-align: center;
+    color: white;
+    font-size: 90px;
+    font-weight: 600;
+    margin-top: 90px;
+  }
+
+  p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 23px;
+  }
+
+  .login {
+    padding: 13px 50px;
+    border-radius: 16px;
+    border: none;
+    background-color: #ffc57f;
+    margin-top: 35px;
+
+    a {
+      color: black;
+      font-size: 25px;
+      font-weight: 600;
+    }
+  }
+
+  .woman {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
