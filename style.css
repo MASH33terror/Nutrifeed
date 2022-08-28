@@ -32,6 +32,20 @@ header nav ul {
 header nav ul li a {
   font-size: 19px;
   color: #ffffff;
+  position: relative;
+}
+header nav ul a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #ffc57f;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+header nav ul a:hover::after {
+  width: 100%;
 }
 header nav .nav-but {
   display: flex;

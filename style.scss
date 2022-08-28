@@ -20,6 +20,21 @@ header {
   height: 1470px;
   overflow-y: hidden;
 
+//   nav ul li a::after{
+//     content: '' ;
+//     width:0;
+//     height: 3px;
+//     background: #ff004f;
+//     position: absolute;
+//     left:0;
+//     bottom: -6px;
+//     transition: 0.5s;
+// }
+
+// nav ul li a:hover::after{
+//     width: 100%;
+// }
+
   nav {
     display: flex;
     align-items: center;
@@ -33,7 +48,24 @@ header {
       li a {
         font-size: 19px;
         color: #ffffff;
+        position: relative;
       }
+
+     a::after {
+        content: '' ;
+        width:0;
+        height: 3px;
+        background: #ffc57f;
+        position: absolute;
+        left:0;
+        bottom: -6px;
+        transition: 0.5s;
+     }
+
+     a:hover::after{
+        width: 100%;
+    }
+
     }
 
     .nav-but {
@@ -497,3 +529,5 @@ footer {
         }
     }
 }
+
+
