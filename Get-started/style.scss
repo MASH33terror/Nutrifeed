@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Sora:wght@300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "sora", sans-serif;
+  background-color: #FFFFFF;
+}
+
+@media (max-width: 884px) {
+  .container {
+    padding: 5% 8%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    h1 {
+      font-size: 24px;
+      font-weight: 600;
+      margin-top: 20px;
+      color: #01321c;
+    }
+
+    .search {
+      display: flex;
+      align-items: center;
+      background: #e4e4e4;
+      border-radius: 1530px;
+      padding: 15px;
+      margin-top: 21px;
+
+
+      button {
+        background: rgba(245, 241, 241, 0);
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      input {
+        background: rgba(245, 241, 241, 0);
+        border: none;
+        font-size: 14px;
+        font-weight: 700;
+        color: #000;
+        font-family: 'sora';
+        margin-left: 30px;
+      }
+    }
+
+
+
+    .first-grid {
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(3,1fr);
+        justify-items: center;
+        margin-top: 24px;
+        
+
+        img {
+           border-radius: 15px ;
+        }
+    }
+
+    nav {
+
+        margin-top: 30px;
+    
+        ul {
+            display: flex;
+            align-items: center;
+            justify-items: center;
+            justify-content: space-evenly;
+            
+    
+            li a {
+                font-size: 14px;
+                font-weight: 600;
+                color: #000;
+                font-family: 'sora';
+    
+               
+            }
+    
+            a:active {
+                background-color: #FFC57F;
+                padding: 15px 20px;
+                color: #01321c;
+                border-radius: 8px;
+            }
+        }
+    }
+
+
+
+    .second-grid {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        
+        h4 {
+            margin-top: -30px;
+            font-size: 13px;
+            font-weight: 600;
+            font-family: 'sora';
+
+        }
+    }
+
+    .latest {
+        margin-top: 30px;
+    }
+
+    .nav  {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h2 {
+            font-size: 14px;
+            font-weight: 600;
+            font-family: 'sora';
+        }
+
+        a {
+            font-size: 14px;
+            color: #000;
+            font-weight: 400;
+        }
+
+    }
+
+
+    .plant-grid {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        #one {
+            background-image: url(./images/nagy-arnold-X_IvVDuHvDQ-unsplash\ 2.png);
+        }
+
+        .plantss {
+        width: 154px;
+        height: 140px;
+        border-radius: 15px;
+        background: url( ./images/laura-crowe-vsrEr7otP2o-unsplash\ 1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        margin-top: 20px;
+
+        .button {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+        }
+
+
+        button {
+            padding: 1px 5px ;
+        }
+        }
+    }
+
+  }
+
+
+ footer {
+    background: #01321C;
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    align-items: center;
+    padding: 5% 5%;
+
+
+    .home {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background: #FFFFFF;
+        border-radius: 72px;
+        padding: 14px 24px;
+
+        h6 {
+            font-size: 14px;
+            font-weight: 600;
+        }
+    }
+ }
+
+}
