@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Sora:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "sora";
+}
+
+.back {
+  background-image: url(./images/nagy-arnold-X_IvVDuHvDQ-unsplash\ 1.png);
+  height: 100vh;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.pre {
+  background: rgba(245, 241, 241, 0);
+  border: none;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 180px;
+}
+.flex .flex-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex .flex-item button {
+  background-color: white;
+  border: none;
+  width: 35px;
+  height: 38px;
+}
+.flex .flex-item img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 7px;
+}
+.flex .plus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flex .plus h3 {
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+}
+.flex .plus button {
+  width: 36px;
+  height: 32px;
+  font-size: 24px;
+  background-color: white;
+  border: none;
+}
+
+.foot {
+  width: 100%;
+  height: 406px;
+  border-radius: 49px 49px 0px 0px;
+  background-color: white;
+  margin-top: 20px;
+  padding: 10px 10%;
+}
+.foot h5 {
+  font-weight: 300;
+  margin-top: 5px;
+}
+.foot h4 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 36px;
+}
+
+.now {
+  text-align: center;
+}
+.now button {
+  width: 200px;
+  padding: 15px 10px;
+  border-radius: 16px;
+  border: none;
+  background-color: #FFC57F;
+  font-size: 24px;
+  font-weight: 600;
+  color: #01321C;
+}/*# sourceMappingURL=style.css.map */
