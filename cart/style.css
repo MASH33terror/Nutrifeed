@@ -30,7 +30,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 190px;
+  margin-top: 200px;
 }
 .flex .flex-item {
   display: flex;
