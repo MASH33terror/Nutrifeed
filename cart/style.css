@@ -16,7 +16,6 @@ body {
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  overflow: hidden;
 }
 
 .pre {
@@ -30,7 +29,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 250px;
+  margin-top: 50%;
 }
 .flex .flex-item {
   display: flex;
